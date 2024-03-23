@@ -1,0 +1,182 @@
+"Dist", # Dist: distirct in which school is
+"schoolName", # Name of school
+"Q1",
+"Q2",
+"Q3",
+"Q4",
+"Q5A",
+"Q6",
+"Q7",
+"Q8",
+"Q9",
+"Q10",
+"Q11", # 11 criteria for tobacco free school
+# 0 = not satisfy
+# 1 = satisfy
+"totalCriteria", # PT TOTAL CRITERION: total number of criteria one school meets
+"percCriteria", # Percent TOTAL CRITERION: total number of criteria one school meets
+"totalPop2011", # Total Population ('000) as per 2011 census
+"adolescentPop", # Adolescent popn (10-19 yrs).
+"youthPopn", # Youth popn (10-19 yrs).
+"SCPropRURAL", # SC Proportion to total pon-RURAL
+"SCPropURBAN", # SC Proportion to total pon-URBAN
+"SCPropTOTAL", # SC Proportion to total pon-TOTAL
+"STPropRURAL", # ST Proportion to total pon-RURAL
+"STPropURBAN", # ST Proportion to total pon-URBAN
+"STPropTOTAL", # ST Proportion to total pon-TOTAL
+"GDDP_curr", # GDDP at current prices (13-14)
+"NDDP_curr", # NDDP at current prices (13-14)
+"GDDP_const", # GDDP at constant prices (13-14)
+"NDDP_const", # NDDP at constant prices (13-14)
+"pcNDDP", # Per captia Net District Domestic product at current prices in Rs
+"avg_MPCE_RURAL", # Average(MPCE)(Rs at current Prices)-Total-Rural
+"foodShareExpenseRURAL", # Share of food in total expenditure(%)-Rural
+"avg_MPCE_URBAN", # Average(MPCE)(Rs at current Prices)-Total-Urban
+"foodShareExpenseURBAN", # Share of food in total expenditure(%)-Urban
+"rationYBPL", # Ration-Yellow-BPL
+"rationYAAY", # Ration-Yellow-AAY
+"rationSAPL", # Ration-Saffron-APL
+"rationAnna", # Annapurna
+"rationWhite", # White
+"totRC", # Total Ration Cards
+"avg_pccRURAL", # Average per capita consumption per month(Rs. at current prices)-Rural-2005-05
+"iopRURAL", # Incidence of Poverty(%)-Rural-2004-05
+"LzRatioRURAL", # Lorenz Ratio(%)-Rural-2004-05
+"avg_pccURBAN", # # Average per capita consumption per month(Rs. at current prices)-Urban-2005-05
+"iopURBAN", # Incidence of Poverty(%)-Urban-2004-05
+"LzRatioURBAN", # Lorenz Ratio(%)-Urban-2004-05
+"TotRdLength", # Total Road length(km)-2013-14
+"APPTWAMainW", # Adolescent popn(10-19 yrs)-proportion to workers as main workers
+"APPTWAMarginalW", # Adolescent popn(10-19 yrs)-proportion to workers as marginal workers
+"youthPopAsWorker", # Youth popn(10-19 yrs)-proportion to workers as main workers
+"youthPopAsMWorker", # Youth popn(10-19 yrs)-proportion to workers as marginal workers
+"HDI_2001", # HDI of Dist-2001
+"HDI_2011", # HDI of Dist-2011
+"HDIRS_2001", # HDI of Dist-relative status in 2001
+"HDIRS_2011", # HDI of Dist-relative status in 2011
+"IMR_2010", # IMR-2010
+"pcHealthExpenseRURAL", # Per Capita Health Expenditure-Rural-2006-07-MHDR
+"pcHealthExpenseRURALURBAN", # Per Capita Health Expenditure-Urban-2006-07-MHDR
+"popPerSubCentre", # Popn per sub centre in 2010-11
+"popPerPHC", # Popn per PHC in 2010-11
+"popPerRH", # Popn per RH in 2010-11
+"popPerGovBed", # Popn per Govt Bed 2009-10
+"sex_ratio_dist", # Sex ratio of the district or block if data available
+"POAGHF", # Place of ANC-Govt Health Facility-07-08
+"POAPHF", # Place of ANC-Pvt Health Facility-07-08
+"POACBS", # Place of ANC-Community Based Services-07-08
+"anyANC", # Any ANC
+"fullNatalCare", # Full Antenatal Care
+"pWomenHospDeliveries", # Percentage of women who had institutional deliveries
+"homeDeliveries", # Home Deliveries
+"homeDeliveries_assist", # Home deliveries assisted by skilled persons
+"percSafeDeliveries", # % of safe deliveries
+"childSexRatio", # Child sex ratio(0-6 yrs)
+"avgHHperNH", # Avg HH size for NH
+"avgHHperHH", # Avg HH size for HH
+"litRateM", # Literacy Rate-M
+"litRateF", # Literacy Rate-F
+"litRateT", # Literacy Rate-T
+"litRateSC", # Literacy rate in SC
+"litRateSC", # Literacy rate in ST
+"APL", # Adolescent popn(10-19 yrs)-Literate
+"youthPopLit", # Youth popn(10-19 yrs)-Literate
+"SHSAP", # Schools havin sectionsy arupper prim
+"secondarySec", # Schools having secondary sections
+"ROSWUPSTSS", # ratio of schools with upper primary sections to secondary sections
+"numSchoolsTot", # Number of schools(All)-2009-MPSP
+"numGovSchools", # Number of Government secondary schools-2009-MPSP
+"numPrivASchools", # Number of Private aided schools-2009-MPSP
+"numPrivNASchools", # Number of Private nuaided schools-2009-MPSP
+"percHH_Has_TapWtr", # % of HH having Tap water as a source of drinking water-2011
+"percHH_Has_Toilet", # % of HH having Laterines within their premises-2011
+"unemploymentRT", # Unemployment rates in district OR Total unemployed in the age group 15-59 yrs
+"percPassSSC", # The pass % for District in SSC for the exam conducted in March 15
+"EngMedium", # English medium if yes-which standards
+"SchoolInfrastructure", # Infrastructure of School-Pucca, katchha or semi pucca building
+"numRoom", # Infrastructure of SchooL-No of classrooms
+"haveComputer", # Computer Yes__1 No__2
+"haveInternet", # Internet Connectivity Yes__1 No__2
+"haveELearning", # E-Learning Facility Yes__1 No__2
+"haveToilets", # Toilets Yes__1 No__2
+"haveToiletsF", # Toilets for females Yes__1 No__2
+"playground", # Playground(available and dimensions)
+"sports", # Performace of school in sports-Level(cluster, Block, District, State) and June 14 to May 15 #sportsLevel
+# "sportsName", # Name of sport June 14 to May 15
+"extraCurrLevel", # Performace in extra-curricular Level(Cluster,Block,District,State) June 14-May 15
+# "extraCurrType", # Performace in extra-curricula r essay,songs,drawaing,music,dance,craft June 14-May 15
+"localTrust", # Local Trust or Board for Each School(school management committe) Active: 4 and more than 4 meeting in a year Passive: less than 4 meeting in a year June 14 to May 15
+# "numMeeting", # Write actual number of meeting and then classify as active or pacific June 14 to May 15
+"ruleFollow", # Passively following rules(incl COTPA) or is proactive ON THE BASIS OF TWO PARAMETERS WHICH SCHOOL CAN FOLLOW Passive: Not following COTPA with enthusiam etc Proactive: Following COTPA with ensthusiam taking initative June 14 to May 15
+"remark", # Remark for active and passive
+"prcplGender", # Gender of Principal Male__1 Feamle__2 June 14-May 15
+"prcplAge", # Age of Principal June 14-May 15
+"prcplMaritalStatus", # Marital status of Principal Single__1 Widowed__2 Married___3 Divorced__4 June 14 May 15
+"prcplIfChild", # Do you have children Yes__1 No__2 June 14 May 15
+# "prcplNumChild", # No of children to principal June 14 May 15
+"prcplSpouseEdu", # Principal's spouse's education June 14 May 15
+"prcplSpouseWork", # Principal's spouse is working Yes___1 No___2 June 14 May 15
+"prcplSpouseOccu", # Describe the occupation of Principal's spouse June 14 May 15
+"prcplIncome", # Can you tell us your monthly household income May not be possible__1 In.Rs__________ June 14 May 15
+"prcplEdu", # Principal's highest level of qualification
+"prcplScheme", # Principal sucessfully implemented any scheme in this school Yes__1 No__2
+"prcplSchemeName", # If sucessfully implemented scheme then please name the schemes
+"prcplEduYear", # Principal's Number of years of schooling education.
+"prcplSchemeOther", # Principal sucessfully implemented any scheme in other school Yes___1 No___2
+"prcplSchemeOtherName", # If sucessfully implemented scheme then please name the schemes
+"prcplWorkYear", # No of years working as a principal in this school
+"prcplWorkYearOther", # No of years working as a principal in other school
+"prcplInternetSavy", # Principal internet savy Very Good__1 Good__2 Not at all good__3 June 14 May 15
+"prcplSmartPhone", # Principal use smat phone Yes__1 No__2 June 14 May 15
+"prcplUsedTobacco", # Principal has ever used tobacco Yes__1 No__2 June 14 May 15
+"prcplUsingTobacco", # Principal and current Tobacco Use Principal Using Tobacco Yes__1 No__2 June 14 May 15
+"prcplUsingQuan", # Principal current user daily quantiity June 14 May 15
+"prcplchoolAward", # Any award to school from Govt in past 5 yrs at level(CRC, Cluster , Block, District, State, National)
+# "schoolAwardName", # Name of the award
+"numGuestLec", # How Many Guest Lectures in School in Past Year June 14 to May 15
+"tbccoUseProb", # Tobacco use is a problem among school adolescents and youth in this town Agree__1 Somewhat agree__2 Somewhat Disagree_3 Disagree__4
+"tbccoFreeGood", # A tobacco free environment has a positive impact on school students Agree__1 Somewhat agree__2 Somewhat Disagree_3 Disagree__4
+"staffNotDemandTF", # The school staff have not made any demand for a tobacco free enviornment in the school Agree__1 Somewhat agree__2 Somewhat Disagree_3 Disagree__4
+"staffNotForceStopTbcco", # The school staff should not be forced to stop using tobacco Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"isTrusteesActive", # The school trustees play an active role in decisions around school programmes Check wether schools of smf have trustees Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"BlockStaffCom", # Block level staff from the education department communicate with our school on a regular at least once in 3 months basis about school curriculum related issues Agree__1 Somewhat agree__2 Somewhat Disagree_3 Disagree__4
+"BlockStaffHelpTF", # Block level staff from the education or health department prepared our school staff in implementing the tobacco free programme Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"staffReceivdTrainTF", # Our staff received training in tobacco free schools Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"schoolLeadsExCuPr", # The school is a leader in terms of taking up extra curricular programmes for its students Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"isChangeDifficult", # It is difficult to bring about any change in my school Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"isChangeEasy", # The resistance to change in my school can be easily tackled Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"teachDiscChallenges", # Most of our teachers(more than 50%) discuss any challenges related to school or students with me Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"canDiscChangeTeach", # I can easily discuss any ideas schemes for change with my school teachers Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"mstTeachNotInterest", # Most of my school teachers(more than 50%) are disintrested in the work of teaching Agree__1 Somewhat agree__2 Somewhat Disagree_3 Disagree__4
+"mstTeachPrivateLessons", # Most of my school teachers(more than 50%) conduct private tuitions or coaching classes after school hrs Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"mstTeachGoodAcademics", # Most of my school teachers(more than 50%) take ownership to ensure that the school does well in academics Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"mstTeachGoodExCurr", # Most of my school teachers(more than 50%) take ownership to ensure that the school does well in extra curricular programmes Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"mstTeachSelfDevelopment", # Most of my school teachers(more than 50%) willingly participate in workshops or events for self-development Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"mstTeachParticipateExCurr", # Most of my school teachers(more than 50%) willingly participate in extra curricular activities organized for the welfare of the students Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"teachNeedReminders", # I have to issue memos or give verbal warnings every time to teachers to get any scheme or activities implemented in the school Agree__1 Somewhat.agree__2 Somewhat Disagree__3 Disagree__4
+"mstParentsSchoolEvents", # Most of our parents(More than 50%) participate in school activities or events Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"parentsTbccoBigThreat", # Parents of my school find tobacco use the biggest threat for their children Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"mstParentsReqTF", # Majoirt(More than 50%) of parents have requested me to implement tobacco free rules in the school Agree__1 Somewhat agree__2 Somewhat Disagree__3 Disagree__4
+"teachNumTraining", # No of Workshops No of Trainings attended by teacher June14 May 15
+# "numFunct", # No of Functions attended by teacher June14 May 15
+"teachAwardsGov", # Awards to teachers from Govt in past 3 yrs Yes__1 No__2
+# "awardName", # name of the award
+"isPTA", # Is there a PTA parent teachers association Yes___1 No___2
+"parentEduLevl", # Parental education-record for maximum parents Codes-only one code is possible-Primary or Secondary or higher seconday,illiterate,literate without formal education
+"percPassHSC", # The pass % for District in HSC for the exam conducted in March 15
+"distPerfEdu", # Performance of district in education
+"MEnroll1", # Male Enrollment
+"MEnroll2", # Male Enrollment
+"MEnroll3", # Male Enrollment
+"FEnroll1", # Female Enrollment
+"FEnroll2", # Female Enrollment
+"FEnroll3", # Female Enrollment
+"totEnroll1", # Total Enrollment
+"totEnroll2", # Total Enrollment
+"totEnroll3", # Total Enrollment
+"POTOC", # Percent of tribal or caste related students in the school
+"numMTeach", # Male No of Teachers June 14 to May 15
+"numFTeach", # Female No of teachers June 14 to May 15
+"teachStudRat", # Teacher student ratio
+"MtoFTeachRat", # Male to female teacher ratio
+"numBlank" # no of blank columns

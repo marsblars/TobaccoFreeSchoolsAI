@@ -1,0 +1,91 @@
+============================================================================== 
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:            tobaccoFree   No. Observations:                  488
+Model:                          Logit   Df Residuals:                      427
+Method:                           MLE   Df Model:                           60
+Date:                Sat, 23 Mar 2024   Pseudo R-squ.:                   1.000
+Time:                        00:46:23   Log-Likelihood:            -0.00075591
+converged:                       True   LL-Null:                       -159.08
+Covariance Type:            nonrobust   LLR p-value:                 7.941e-37
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        -67.8488        nan        nan        nan         nan         nan
+0             -2.2516        nan        nan        nan         nan         nan
+1              5.0694        nan        nan        nan         nan         nan
+2             -0.6465        nan        nan        nan         nan         nan
+3              1.2777        nan        nan        nan         nan         nan
+4             -1.4082        nan        nan        nan         nan         nan
+5             -0.1132        nan        nan        nan         nan         nan
+6             -1.1079        nan        nan        nan         nan         nan
+7              0.3380        nan        nan        nan         nan         nan
+8             -0.6106        nan        nan        nan         nan         nan
+9             -0.9780        nan        nan        nan         nan         nan
+10            -0.7625        nan        nan        nan         nan         nan
+11            -0.7921        nan        nan        nan         nan         nan
+...
+
+Possibly complete quasi-separation: A fraction 1.00 of observations can be
+perfectly predicted. This might indicate that there is complete
+quasi-separation. In this case some parameters will not be identified.
+
+Let’s say that the predictor variable involved in complete quasi-complete 
+separation is called X. 
+In the case of complete separation, make sure that the outcome variable is not 
+a dichotomous version of a variable in the model.
+
+If it is quasi-complete separation, the easiest strategy is the "Do nothing" 
+strategy. This is because that the maximum likelihood for other predictor 
+variables are still valid. The drawback is that we don’t get any reasonable 
+estimate for the variable X that actually predicts the outcome variable 
+effectively.  This strategy does not work well for the situation of 
+complete separation.
+
+Another simple strategy is to not include X in the model. The problem is that 
+this leads to biased estimates for the other predictor variables in the model. 
+Thus, this is not a recommended strategy.
+
+Possibly we might be able to collapse some categories of X if X is a 
+categorical variable and if it makes substantive sense to do so.
+
+Summary tells us possible quasi-complete separation most likeley due to 
+variables with high levels of collinearity. Those variables should be dropped
+The Heatmap shows many instrances of collinearity.
+==============================================================================
+
+Actual values [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,...]
+Predictions : [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,...]
+Test accuracy =  0.975609756097561
+==============================================================================
+                    Sklearn Logistic Regression Results
+==============================================================================
+
+The acuuracy of the model = TP+TN/(TP+TN+FP+FN) =  0.991869918699187 
+ The Missclassification = 1-Accuracy =  0.008130081300813052 
+ Sensitivity or True Positive Rate = TP/(TP+FN) =  0.9090909090909091 
+ Specificity or True Negative Rate = TN/(TN+FP) =  1.0 
+ Positive Predictive value = TP/(TP+FP) =  1.0 
+ Negative predictive Value = TN/(TN+FN) =  0.9911504424778761 
+ Positive Likelihood Ratio = Sensitivity/(1-Specificity) =  inf 
+ Negative likelihood Ratio = (1-Sensitivity)/Specificity =  0.09090909090909094
+
+
+==============================================================================
+
+
+Training set score: 1.0000
+Test set score: 0.9919
+
+
+==============================================================================
+Sklearn shows no possible complete quasi-separation
+
+This is because scikit-learn the default logistic regression is not exactly 
+logistic regression, but rather a penalized logistic regression 
+(by default ridge-regresion i.e. with a L2-penalty). This has the result that 
+it can provide estimates etc. even in case of perfect separation 
+(e.g. some predictors have all 1 or all 0) or situations where some combination 
+of predictors results in "perfect" prediction, while standard non-penalized 
+logistic regression runs into problems (either you think this is a legitimate
+ infite estimate, or think of this as a problem)

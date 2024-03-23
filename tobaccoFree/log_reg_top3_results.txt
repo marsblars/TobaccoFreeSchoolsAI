@@ -1,0 +1,45 @@
+============================================================================== 
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:            tobaccoFree   No. Observations:                  488
+Model:                          Logit   Df Residuals:                      484
+Method:                           MLE   Df Model:                            3
+Date:                Tue, 19 Mar 2024   Pseudo R-squ.:                  0.5127
+Time:                        22:51:12   Log-Likelihood:                -77.521
+converged:                       True   LL-Null:                       -159.08
+Covariance Type:            nonrobust   LLR p-value:                 3.894e-35
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -3.4546      0.326    -10.607      0.000      -4.093      -2.816
+0              0.3136      0.164      1.907      0.056      -0.009       0.636
+1             -1.0443      0.147     -7.114      0.000      -1.332      -0.757
+2              1.1537      0.192      6.003      0.000       0.777       1.530
+==============================================================================
+
+Actual values [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,...] 
+Predictions : [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,...] 
+Test accuracy =  0.9512195121951219
+
+==============================================================================
+                    Sklearn Logistic Regression Results
+==============================================================================
+
+The acuuracy of the model = TP+TN/(TP+TN+FP+FN) =  0.959349593495935 
+ The Missclassification = 1-Accuracy =  0.04065040650406504 
+ Sensitivity or True Positive Rate = TP/(TP+FN) =  0.5454545454545454 
+ Specificity or True Negative Rate = TN/(TN+FP) =  1.0 
+ Positive Predictive value = TP/(TP+FP) =  1.0 
+ Negative predictive Value = TN/(TN+FN) =  0.9572649572649573 
+ Positive Likelihood Ratio = Sensitivity/(1-Specificity) =  inf 
+ Negative likelihood Ratio = (1-Sensitivity)/Specificity =  0.4545454545454546
+
+
+==============================================================================
+
+
+Training set score: 0.9447
+Test set score: 0.9593
+
+
+==============================================================================

@@ -1,0 +1,19 @@
+============================================================================== 
+                           SVM Radial Results                           
+==============================================================================
+
+Accuracy with Not-Linear SVM: 94.31%
+
+Accuracy with Not-Linear SVM + PCA considering only 2 PCs: 91.87%
+Accuracy with Not-Linear SVM + PCA considering only 4 PCs: 91.06%
+Accuracy with Not-Linear SVM + PCA considering only 8 PCs: 91.06%
+
+Accuracy with Not-Linear SVM + FAMD considering n Factors: 91.87%
+
+Accuracy with SVM and 10-FOLD CROSS VALIDATION: 0.98 (+/- 0.04)
+
+Accuracy with SVM + PCA and 10-FOLD CROSS VALIDATION: 0.92 (+/- 0.05)
+
+Accuracy with SVM + FAMD and 10-FOLD CROSS VALIDATION: 0.94 (+/- 0.03)
+
+==============================================================================
