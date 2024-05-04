@@ -1,4 +1,4 @@
-# Current Project Summary
+# Project Summary (Not Updated)
 
 We were successfuly able to recreate the logistic regression model and the smv model from the orriginal project. We cleaned up and combined the data with excel and used KNN imputing for the missing data. We also did chi-square tests, PCA, and factor analysis. Our correlation results gave us different features than what were used in training the original logistic regression model, so we did multiple model tests.
  Our recreation using the same 3 features used to train the original model gave us a higher accuracy score of 95% compared to the original score of 91.9%. Moving on to our recreation of the SVM Radial model we achieved a score of 94% but with a standard deviation of (+/- 0.03) compared to the original score of 92.8% so our score could be slightly better or worse.
