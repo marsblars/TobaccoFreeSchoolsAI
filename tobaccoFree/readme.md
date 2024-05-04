@@ -1,4 +1,4 @@
-# Project Summary (Not Updated)
+# Project Summary
 
 We were successfuly able to recreate the logistic regression model and the smv model from the orriginal project. We cleaned up and combined the data with excel and used KNN imputing for the missing data. We also did chi-square tests, PCA, and factor analysis. Our correlation results gave us different features than what were used in training the original logistic regression model, so we did multiple model tests.
  Our recreation using the same 3 features used to train the original model gave us a higher accuracy score of 95% compared to the original score of 91.9%. Moving on to our recreation of the SVM Radial model we achieved a score of 94% but with a standard deviation of (+/- 0.03) compared to the original score of 92.8% so our score could be slightly better or worse.
@@ -8,3 +8,7 @@ We were successfuly able to recreate the logistic regression model and the smv m
 Our recreations were succesfull but we had problems training the models with our own chosen correlated variables. We had isssues training with the statsmodels library's logistic regression model which gave us a result of "Possibly complete quasi-separation" which can be attributed to the features that we chose having high levels of collinearity between eachother making it difficult for the model to distinguish them from eachother and resulting in a possible false accuracy score of 100%. Further feature selection needs to be done by examining these variables and dropping them to get a correct score. SKlearns model didn't have this issue due to the way their model does its calculations. Further explanation can be found in the model result files.
 
  _These models and their results can be found in the files: tfs_logreg_heatmap.ipynb, tfs_logreg_pvals.ipynb, tfs_logreg_chi.ipynb, log_reg_heatmap_results.txt, log_reg_pvals_results.txt, log_reg_chi_results.txt, log_reg_chi_contingency.txt_
+
+
+ Update:
+ The Quasi seperation errors were fixed by using the statmodels GLM model instead of only logistic regression. Currently working on neural network model implementation.
